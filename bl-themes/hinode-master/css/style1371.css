@@ -268,6 +268,7 @@ footer .footer-widgets {
     font-family: 'Roboto Mono', monospace;
     font-size: .75rem;
     text-transform: uppercase;
+    margin: 0.25rem 0;
 }
 .ch70 {
     max-width: 70ch;
