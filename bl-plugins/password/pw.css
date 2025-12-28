@@ -1,5 +1,5 @@
-.premiumpost{
-    width: 80%;
+.password-wrapper { 
+    margin-bottom: 1rem;width: 80%;
     display: flex;
     flex-direction: column;
     margin:30px auto;
@@ -12,40 +12,30 @@
     animation: fadeIn 500ms ease-in-out;
 }
 
-.premiumpost label{
+.password-wrapper label { 
     text-align: center;
-    font-size: 1.2rem;
-    margin-bottom: 20px;
 }
 
-.premiumpost input{
+.page-password { 
     padding:10px;
     margin-bottom: 10px;
     background: #fff;
     border-radius: 5px;
-    border: solid 1px #ddd;
+    border: solid 1px #ddd; 
 }
 
-.premiumpost input[type="submit"]{
+.password-wrapper button {
+    border: none;
     background: #222;
     color:#fff;
     width: 50%;
+    padding: 0.5rem;
     margin: 0 auto;
 }
 
-
-.premiumpost_error{
-    background: red;
-    color:#fff;
-    padding: 15px;
-    text-align: center;
-    box-shadow: 1px 10px 10px rgba(0,0,0,0.03);
-    border-radius: 5px;
-    margin: 30px auto;
-    animation: fadeIn 500ms ease-in-out;
-
+.password-error { 
+    color:red; margin-top:5px; text-align: center;
 }
-
 
 @keyframes fadeIn {
     
